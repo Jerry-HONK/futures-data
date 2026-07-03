@@ -41,7 +41,7 @@
       "whitelist": false,
       "near_code": "hc2610",
       "far_code": "hc2701",
-      "rows": 2989
+      "rows": 2990
     },
     "i": {
       "name": "铁矿石",
@@ -141,7 +141,7 @@
       "whitelist": true,
       "near_code": "SM0",
       "far_code": "sm0",
-      "rows": 2841
+      "rows": 2842
     },
     "ss": {
       "name": "不锈钢",
@@ -161,7 +161,7 @@
       "whitelist": true,
       "near_code": "SS0",
       "far_code": "SS9999",
-      "rows": 1638
+      "rows": 1639
     },
     "eg": {
       "name": "乙二醇",
@@ -190,10 +190,10 @@
       "mgn": 0.08,
       "active_code": "pp2609",
       "active_month": "09",
-      "active_oi": 485878,
+      "active_oi": 506471,
       "next_oi": 158841,
-      "rollover_status": "🟢 稳定（24.6%）",
-      "rollover_progress": 24.6,
+      "rollover_status": "🟢 稳定（23.9%）",
+      "rollover_progress": 23.9,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约)[降级]",
       "data_source": "single_contract",
@@ -201,7 +201,7 @@
       "whitelist": false,
       "near_code": "pp2609",
       "far_code": "pp2701",
-      "rows": 190
+      "rows": 191
     },
     "l": {
       "name": "聚乙烯",
@@ -241,7 +241,7 @@
       "whitelist": true,
       "near_code": "pg0",
       "far_code": "PG0",
-      "rows": 1517
+      "rows": 1518
     },
     "ta": {
       "name": "PTA",
@@ -321,7 +321,7 @@
       "whitelist": true,
       "near_code": "eb0",
       "far_code": "EB0",
-      "rows": 1637
+      "rows": 1638
     },
     "fg": {
       "name": "玻璃",
@@ -421,7 +421,7 @@
       "whitelist": true,
       "near_code": "c0",
       "far_code": "C0",
-      "rows": 5224
+      "rows": 5225
     },
     "p": {
       "name": "棕榈油",
@@ -541,7 +541,7 @@
       "whitelist": true,
       "near_code": "CU0",
       "far_code": "CU9999",
-      "rows": 5227
+      "rows": 5228
     },
     "al": {
       "name": "铝",
@@ -561,7 +561,7 @@
       "whitelist": true,
       "near_code": "AL0",
       "far_code": "AL9999",
-      "rows": 5227
+      "rows": 5228
     },
     "zn": {
       "name": "锌",
@@ -601,7 +601,7 @@
       "whitelist": true,
       "near_code": "NI0",
       "far_code": "NI9999",
-      "rows": 2739
+      "rows": 2740
     },
     "pb": {
       "name": "铅",
@@ -641,7 +641,7 @@
       "whitelist": true,
       "near_code": "SN0",
       "far_code": "SN9999",
-      "rows": 2739
+      "rows": 2740
     },
     "au": {
       "name": "黄金",
@@ -681,7 +681,7 @@
       "whitelist": true,
       "near_code": "AG0",
       "far_code": "AG9999",
-      "rows": 3441
+      "rows": 3442
     },
     "sc": {
       "name": "原油",
@@ -701,7 +701,7 @@
       "whitelist": true,
       "near_code": "sc0",
       "far_code": "SC0",
-      "rows": 2005
+      "rows": 2006
     },
     "sh": {
       "name": "烧碱",
@@ -781,7 +781,7 @@
       "whitelist": true,
       "near_code": "IF0",
       "far_code": "IF9999",
-      "rows": 2293
+      "rows": 2294
     },
     "ic": {
       "name": "中证500股指",
@@ -801,7 +801,7 @@
       "whitelist": true,
       "near_code": "IC0",
       "far_code": "IC9999",
-      "rows": 2293
+      "rows": 2294
     },
     "sp": {
       "name": "纸浆",
