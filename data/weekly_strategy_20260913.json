@@ -1,0 +1,268 @@
+{
+ "schema": "futures-monitor/weekly-strategy@1",
+ "week": "2026-09-13",
+ "rev": "r1",
+ "global_invalidate": "三个推翻点：① 9/14 阿曼海合会—伊朗会谈达成临时通航安排，则能化多头（原油/甲醇/LPG）全部清仓、EG 反套加仓、黄金/美债2Y/恒生科技提前触发；② FOMC 点阵图显示 2027 年再加两次以上，则黄金/美债2Y/恒生科技三条取消、贵金属看伦敦金 4,200；③ 铁水两周内回到 238 万吨以上，则螺纹/铁矿/焦煤三条空全部失效。",
+ "events": [
+  {
+   "date": "2026-09-14",
+   "name": "阿曼：海合会—伊朗海峡临时通行安排会谈",
+   "note": "第一推翻点的首次检验；能化多头减仓线、EG 反套加仓线、黄金提前触发"
+  },
+  {
+   "date": "2026-09-15",
+   "name": "中国 8 月工业增加值/社零/固投；8 月社融与 M1/M2",
+   "note": "国债区间；M1−M2 剪刀差为领先指标"
+  },
+  {
+   "date": "2026-09-16",
+   "name": "9 月 FOMC（至 9/17）：加息 25bp 与点阵图",
+   "note": "加息概率 90% 已定价；点阵图 2027/28 是真正裁决点；黄金/美债2Y/港股三条的触发或取消"
+  },
+  {
+   "date": "2026-09-24",
+   "name": "中美峰会（农产品贸易预期）",
+   "note": "豆系政策腿"
+  }
+ ],
+ "items": [
+  {
+   "kind": "outright",
+   "sym": "sc",
+   "name": "原油",
+   "contract": "",
+   "dir": "多",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 3,
+   "trigger_text": "已持有，减半持有，不新增。缓冲为零（供需差为负、SPR 2.85 亿桶、化工库存同期最低）但需求负反馈已现：亚洲炼厂 Dubai 口径利润跌破零、Dubai cash 升水 31→29",
+   "trigger_price": null,
+   "invalidate_text": "Dubai cash 升水跌破 20 美元/桶，或 9/14 阿曼会谈达成临时通航安排 → 清仓",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "ma",
+   "name": "甲醇",
+   "contract": "MA2601",
+   "dir": "多",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 3,
+   "trigger_text": "已持有，止盈一半；保留一半的条件：港口库存跌破 50 万吨（现 55.15，隆众预测 45）且 MTO 开工不降",
+   "trigger_price": null,
+   "invalidate_text": "港口库存周环比转增（隆众周三），或通航安排落地 → 全部止盈",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "pg",
+   "name": "LPG",
+   "contract": "",
+   "dir": "多",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 2,
+   "trigger_text": "已持有，不加仓；9 月中下旬港口集中到船，9/20 前减仓",
+   "trigger_price": null,
+   "invalidate_text": "到船集中后港口累库 → 清仓",
+   "invalidate_price": null
+  },
+  {
+   "kind": "calendar",
+   "sym": "eg",
+   "name": "EG 11-01 反套",
+   "contract": "EG2611/EG2701",
+   "dir": "反套",
+   "action": "建立",
+   "priority": "B",
+   "weeks": 4,
+   "trigger_text": "小仓进入。依据换了：r2 等的是港存连续两周累库（未到，11.7 万吨仍在去），本周触发的是需求端负反馈——聚酯负荷 74.5% 年内低、长丝三大厂扩大减产 8%、煤制利润 +2,050 引发三套装置下周重启",
+   "trigger_price": null,
+   "invalidate_text": "华东主港库存跌破 10 万吨（流动性极端收紧，反套彻底作废）",
+   "invalidate_price": null
+  },
+  {
+   "kind": "spread",
+   "sym": null,
+   "name": "多锰硅 空硅铁",
+   "contract": "SM2701/SF2701",
+   "legs": [
+    {
+     "sym": "sm",
+     "side": "多"
+    },
+    {
+     "sym": "sf",
+     "side": "空"
+    }
+   ],
+   "dir": "多",
+   "action": "建立",
+   "priority": "B",
+   "weeks": 3,
+   "trigger_text": "价差 −220 附近小仓重入，目标价差 0。上周取消是规则错：r2 条件③（硅铁基差回升至 −400 以上即取消）是给多硅铁腿设的失效线，套在空硅铁腿上正好反了——基差走强的构成是硅铁期货 −394、现货 −30，那是空腿在赚钱。本周硅铁 −8.33% vs 锰硅 −5.09%",
+   "trigger_price": null,
+   "invalidate_text": "硅铁主力站上 6,100，或锰硅库存去化停止",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "jm",
+   "name": "焦煤",
+   "contract": "JM2701",
+   "dir": "空",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 1,
+   "trigger_text": "多头离场（第五轮提涨 9/10 落地即提涨周期终点；山西产能利用率 87.4% +3.4pct、蒙煤 669 车 +16%；最大资金流出、减仓下跌）。反弹至 1,700–1,750 做空",
+   "trigger_price": {
+    "band": [
+     1700,
+     1750
+    ]
+   },
+   "invalidate_text": "1,780 站稳；或蒙煤通关未过 900 车前铁水回升至 238 万吨",
+   "invalidate_price": {
+    "above": 1780
+   }
+  },
+  {
+   "kind": "outright",
+   "sym": "i",
+   "name": "铁矿",
+   "contract": "I2701",
+   "dir": "空",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 1,
+   "trigger_text": "反弹至 740–760 做空。高炉亏损加速、铁水 236.3、钢厂盈利率 8%；47 港 1.70 亿仍明显高于往年",
+   "trigger_price": {
+    "band": [
+     740,
+     760
+    ]
+   },
+   "invalidate_text": "铁水回到 238 万吨以上，或全球发运连续两周低于 2,500 万吨",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "rb",
+   "name": "螺纹",
+   "contract": "RB2701",
+   "dir": "空",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 1,
+   "trigger_text": "3,150–3,200 做空。表需低位、旺季不旺、焦煤成本推涨接力断",
+   "trigger_price": {
+    "band": [
+     3150,
+     3200
+    ]
+   },
+   "invalidate_text": "3,250 站稳两个交易日",
+   "invalidate_price": {
+    "above": 3250
+   }
+  },
+  {
+   "kind": "outright",
+   "sym": "au",
+   "name": "黄金",
+   "contract": "",
+   "dir": "多",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 1,
+   "trigger_text": "FOMC 落地后逢低多：沪金 920–940 元/克；会后首个交易日不再创新低。三家（中金/广发/创元）一致判加息落地为利空兑现；内盘增仓下跌（沪金 +21,405 手）为逢低买，非空头启动",
+   "trigger_price": {
+    "band": [
+     920,
+     940
+    ]
+   },
+   "invalidate_text": "伦敦金有效跌破 4,200 美元/盎司，或点阵图显示 2027 年再加两次以上",
+   "invalidate_price": {
+    "below": null,
+    "from": {
+     "value": 4200,
+     "unit": "美元/盎司",
+     "basis": "伦敦金",
+     "fx": 6.71
+    }
+   }
+  },
+  {
+   "kind": "outright",
+   "sym": "cj",
+   "name": "红枣",
+   "contract": "CJ2701",
+   "dir": "空",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 1,
+   "trigger_text": "已持有空头。单腿支撑：现货通货 5.65 自 6 月未动、销区利润 −0.20%、库存 9,917 吨；唯一多头腿是上糖期降雨裂口；增仓大跌为空头主动建仓",
+   "trigger_price": null,
+   "invalidate_text": "主产区通货均价自 5.65 上调，或样本库存周降超 300 吨连续两周",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "lc",
+   "name": "碳酸锂",
+   "contract": "",
+   "dir": "观察",
+   "action": "等待",
+   "priority": "C",
+   "weeks": 3,
+   "trigger_text": "不入场。仓单 48,714（+1,516）累增、增仓下跌（39.50→40.76 万手）是启动信号，但需求腿在（9 月铁锂排产 +6%）。空触发：仓单 >50,000 手且当月铁锂排产环比转负",
+   "trigger_price": null,
+   "invalidate_text": "仓单见顶回落 → 转多头观察",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": null,
+   "name": "美债 2 年期",
+   "contract": "",
+   "dir": "多",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 1,
+   "trigger_text": "非商品。9/16 加 25bp 且指引中性后做多（链 B「置换」环：短端见顶、期限溢价回落）。与原油多为反向表达（有意对冲）",
+   "trigger_price": null,
+   "invalidate_text": "点阵图显示 2027 年再加两次以上",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": null,
+   "name": "恒生科技",
+   "contract": "",
+   "dir": "多",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 1,
+   "trigger_text": "非商品。FOMC 后逢低，恒指周跌幅收敛。本周恒指 −3.29% 是链 A 在权益端的落点；野村 2Q A 股净利 +25.8%，跌的是流动性不是盈利",
+   "trigger_price": null,
+   "invalidate_text": "美国 10Y 站上 5.10%",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": null,
+   "name": "十年期国债期货（国债，非地方债/公司债）",
+   "contract": "",
+   "dir": "多",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 1,
+   "trigger_text": "非商品。108.30–109.60 区间下沿持有 10–20%（社融 7.4% 持平、贷款 −3,400 亿；DR007 1.40%）",
+   "trigger_price": null,
+   "invalidate_text": "跌破 108.30，或 8 月社融增速回升至 7.8% 以上",
+   "invalidate_price": null
+  }
+ ]
+}
