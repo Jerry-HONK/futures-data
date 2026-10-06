@@ -1,6 +1,6 @@
 {
-  "export_date": "20261005",
-  "symbols_ok": 48,
+  "export_date": "20261006",
+  "symbols_ok": 46,
   "symbols_skipped": [],
   "meta": {
     "rb": {
@@ -443,26 +443,6 @@
       "far_code": "C0",
       "rows": 5287
     },
-    "cs": {
-      "name": "玉米淀粉",
-      "sector": "农产品",
-      "mult": 10,
-      "mgn": 0.07,
-      "active_code": "CS2611",
-      "active_month": "11",
-      "active_oi": 294003,
-      "next_oi": 111800,
-      "rollover_status": "🟢 稳定（27.6%）",
-      "rollover_progress": 27.6,
-      "block_new_entry": false,
-      "symbol_type": "逐月品种(连续合约,双因子月份差2月)",
-      "data_source": "single_contract",
-      "month_delta": 2,
-      "whitelist": false,
-      "near_code": "CS2611",
-      "far_code": "CS2701",
-      "rows": 213
-    },
     "p": {
       "name": "棕榈油",
       "sector": "农产品",
@@ -542,26 +522,6 @@
       "near_code": "CJ0",
       "far_code": "cj0",
       "rows": 1800
-    },
-    "ap": {
-      "name": "苹果",
-      "sector": "农产品",
-      "mult": 10,
-      "mgn": 0.1,
-      "active_code": "AP2701",
-      "active_month": "01",
-      "active_oi": 142083,
-      "next_oi": 7022,
-      "rollover_status": "🟢 稳定（4.7%）",
-      "rollover_progress": 4.7,
-      "block_new_entry": false,
-      "symbol_type": "逐月品种(连续合约,双因子月份差2月)",
-      "data_source": "single_contract",
-      "month_delta": 2,
-      "whitelist": false,
-      "near_code": "AP2701",
-      "far_code": "AP2701",
-      "rows": 171
     },
     "rm": {
       "name": "菜粕",
