@@ -1,6 +1,6 @@
 {
-  "export_date": "20261006",
-  "symbols_ok": 46,
+  "export_date": "20261007",
+  "symbols_ok": 45,
   "symbols_skipped": [],
   "meta": {
     "rb": {
@@ -69,18 +69,18 @@
       "mult": 100,
       "mgn": 0.1,
       "active_code": "j0",
-      "active_month": "j0",
+      "active_month": "01",
       "active_oi": 46125,
-      "next_oi": 46125,
-      "rollover_status": "🔄 已换月（次月OI≥50%，仅预警）",
-      "rollover_progress": 91.2,
+      "next_oi": 2354,
+      "rollover_status": "🟢 稳定（4.9%）",
+      "rollover_progress": 4.9,
       "block_new_entry": false,
-      "symbol_type": "逐月品种(连续合约,双因子月份差2月)",
-      "data_source": "continuous_contract",
-      "month_delta": 2,
+      "symbol_type": "🔗主连(地形/趋势)+单合约(跨期)",
+      "data_source": "continuous_contract(export-override)",
+      "month_delta": 4,
       "whitelist": false,
-      "near_code": "J2611",
-      "far_code": "J2701",
+      "near_code": "j2701",
+      "far_code": "j2705",
       "rows": 3755
     },
     "jm": {
@@ -102,26 +102,6 @@
       "near_code": "JM2611",
       "far_code": "JM2701",
       "rows": 3283
-    },
-    "sf": {
-      "name": "硅铁",
-      "sector": "铁合金",
-      "mult": 5,
-      "mgn": 0.08,
-      "active_code": "SF0",
-      "active_month": "F0",
-      "active_oi": 0,
-      "next_oi": 0,
-      "rollover_status": "🟢 稳定（数据不足）",
-      "rollover_progress": 0.0,
-      "block_new_entry": false,
-      "symbol_type": "白名单主连[硅铁(CZCE活跃月1/5/9→强制主连，摆脱单合约换月缺口)]",
-      "data_source": "continuous_contract",
-      "month_delta": 1,
-      "whitelist": true,
-      "near_code": "SF0",
-      "far_code": "sf0",
-      "rows": 2921
     },
     "sm": {
       "name": "锰硅",
