@@ -1,0 +1,363 @@
+{
+ "schema": "futures-monitor/weekly-strategy@1",
+ "week": "2026-10-11",
+ "rev": "r1",
+ "global_invalidate": "三个推翻点（只管新开仓；止盈止损写在各条目里）：① 美伊停火框架落地或霍尔木兹正式通航 → 能化多头与正套（甲醇、PP 1-5）不再新开；② 法德 10 年利差 >160bp、或美国 9 月核心 CPI 环比 ≥0.4%、或 10/28 意外加息 → 黄金、美债 2 年、恒生科技不再新开；③ 铁水连续两周回到 236 万吨以上、或 9 月新增贷款 >1.2 万亿且社融增速止跌 → 铁矿、螺纹、玻璃不再新开空。",
+ "events": [
+  {
+   "date": "2026-10-12",
+   "name": "农业农村部生猪产能常态化精准调控座谈会",
+   "note": "生猪供给侧政策腿"
+  },
+  {
+   "date": "2026-10-13",
+   "name": "法国议会辩论 2027 预算（起）",
+   "note": "链 B′ 全球期限溢价；第二推翻点之一（法德利差 >160bp）"
+  },
+  {
+   "date": "2026-10-14",
+   "name": "美国 9 月 CPI",
+   "note": "链 B″：12 月加息；美债 2 年入场与否"
+  },
+  {
+   "date": "2026-10-15",
+   "name": "中国 9 月社融与信贷（前后）；隆众周度库存",
+   "note": "链 C 宽信用读数；沥青第二周累库、甲醇港口、苯乙烯全国库存"
+  },
+  {
+   "date": "2026-10-16",
+   "name": "钢联铁水与港口库存",
+   "note": "第三推翻点：铁水连续两周 >236"
+  },
+  {
+   "date": "2026-10-23",
+   "name": "锰硅−硅铁价差两周期限",
+   "note": "未站上 −100 则平"
+  },
+  {
+   "date": "2026-10-27",
+   "name": "MA2611、EG2611 进入交割月前最后一周",
+   "note": "甲醇余仓、EG 反套余仓了结"
+  },
+  {
+   "date": "2026-10-28",
+   "name": "10 月 FOMC；英国预算",
+   "note": "链 B″ 与链 B′"
+  },
+  {
+   "date": "2026-11-03",
+   "name": "美国中期选举",
+   "note": "链 A′ 时间锚：选前是否打击伊朗"
+  }
+ ],
+ "items": [
+  {
+   "kind": "outright",
+   "sym": "ma",
+   "name": "甲醇",
+   "contract": "MA2611",
+   "dir": "多",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 5,
+   "trigger_text": "止盈三分之二，余仓三分之一。港口 30.51 万吨史低且未转增（条目条件未触发）；MTO 周末（10/10–11）两套停车、内地厂库 +4.06 是需求负反馈第一步；MA2611 3,196→3,835",
+   "trigger_price": null,
+   "invalidate_text": "余仓（MA2611）收盘跌破 3,600 了结；10/27 前全部了结（进入交割月前）。系统按主力 MA2701 取价，价格条件不填",
+   "invalidate_price": null
+  },
+  {
+   "kind": "calendar",
+   "sym": "eg",
+   "name": "EG 11-01 反套",
+   "contract": "EG2611/EG2701",
+   "dir": "反套",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 6,
+   "trigger_text": "止盈大半：11-01 月差 615→390，获利 225 点；华东主港 13 万吨、社库 +1.3，累库拐点在走",
+   "trigger_price": null,
+   "invalidate_text": "余仓：11-01 价差回到 500 以上止损；10/27 前了结",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "eg",
+   "name": "乙二醇",
+   "contract": "EG2701",
+   "dir": "空",
+   "action": "等待",
+   "priority": "C",
+   "weeks": 1,
+   "trigger_text": "反弹到 4,950–5,039 做空（近 5 个交易日区间 4,583–5,039 上部）；中沙古雷 100 万吨 10/20 前后投产、社库与聚酯工厂在累（主港一去一累）",
+   "trigger_price": null,
+   "invalidate_text": "EG2701 收盘站上 5,150；或华东主港重新去库到 12 万吨以下。系统按主力 EG2611 取价，价格条件不填",
+   "invalidate_price": null
+  },
+  {
+   "kind": "calendar",
+   "sym": "pp",
+   "name": "PP 1-5 正套",
+   "contract": "PP2701/PP2705",
+   "dir": "正套",
+   "action": "等待",
+   "priority": "C",
+   "weeks": 1,
+   "trigger_text": "两件事同时满足才小仓做正套：生产企业库存节后两周回到节前水平（长假两周 +18.5 万吨、+57%），且 1-5 价差回撤到 750–800（节后两天 651→850）。依据：油制与 PDH 亏损、10 月多套装置延期回归，开工 66.3%，近强远弱",
+   "trigger_price": null,
+   "invalidate_text": "价差回到 650 以下；或 10 月下旬重启兑现、开工回到 70% 以上",
+   "invalidate_price": null
+  },
+  {
+   "kind": "calendar",
+   "sym": null,
+   "name": "沥青 11-12 反套（系统无此品种）",
+   "contract": "BU2611/BU2612",
+   "dir": "反套",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 2,
+   "trigger_text": "等隆众合计库存第二周累库（10/15 前后）再建立：节后首周 +2.8 万吨（厂库 +4.5）、出货 32.4→23.2，9/17 专题条件 1 出现第一周；11-12 月差 543；BU2611 11/1 进入交割月，建立后 10/27 前了结",
+   "trigger_price": null,
+   "invalidate_text": "11-12 月差 >700 不做",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "eb",
+   "name": "苯乙烯",
+   "contract": "EB2612",
+   "dir": "空",
+   "action": "等待",
+   "priority": "C",
+   "weeks": 2,
+   "trigger_text": "观察。下游三大消费 −1.35 万吨、EPS 开工 −8.3 个百分点（非一体化利润两口径相反：周度 −307→−399，广发期现日报 10/8 较 9/30 转为 +247）；入场条件：全国总库存连续两周累库后反弹做空（数据 10/15、10/22）；停火框架落地不单独作入场理由（规则 1：上游事件不外推到苯乙烯自己的缓冲）",
+   "trigger_price": null,
+   "invalidate_text": "全国库存不累；或 10/12 起出现增仓上涨周（本期节后已是增仓涨，不计）",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "ru",
+   "name": "天然橡胶",
+   "contract": "RU2701",
+   "dir": "空",
+   "action": "等待",
+   "priority": "C",
+   "weeks": 1,
+   "trigger_text": "观察。全乳基差 −620 走弱、RU 仓单上升、持仓相对 9/18 +24.5%（资金快于现货）；入场条件：增仓下跌周，或泰国原料价格回落",
+   "trigger_price": null,
+   "invalidate_text": "天气腿继续强化（泰国产区洪灾扩大、原料续涨）",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "sc",
+   "name": "原油",
+   "contract": "SC2612",
+   "dir": "观察",
+   "action": "等待",
+   "priority": "C",
+   "weeks": 1,
+   "trigger_text": "上期 1/4 多仓 9/22 按条件在 SC2611 约 724 清仓。转空观察：产地现货转弱（Dubai 升水约 10.7、沙特 11 月亚洲 OSP 降 3–5 美元），到岸成本未降（中东→中国 VLCC 约 35 美元/桶）。转空触发：运费回落到 25 美元以下且 Dubai 升水 <5",
+   "trigger_price": null,
+   "invalidate_text": "选前（11/3 前）出现对伊朗打击 → 观察取消",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "i",
+   "name": "铁矿",
+   "contract": "I2701",
+   "dir": "空",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 3,
+   "trigger_text": "反弹至 695–705 做空（近 5 个交易日区间 678.5–711.5 内；上期 730–745 三周未触及）。铁水 233.84、盈利率 6.93%、47 港 1.731 亿吨续累、IODEX 90.50 两年低；钢厂进口矿库存 −783 万吨两家读法相反（创元：补库结束；国君：低库存待补），不计入",
+   "trigger_price": {
+    "band": [
+     695,
+     705
+    ]
+   },
+   "invalidate_text": "收盘站上 720；或铁水连续两周回到 236 以上",
+   "invalidate_price": {
+    "above": 720
+   }
+  },
+  {
+   "kind": "outright",
+   "sym": "rb",
+   "name": "螺纹",
+   "contract": "RB2701",
+   "dir": "空",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 3,
+   "trigger_text": "持有：9/21 约 3,120 进场，10/9 收 3,080；节后被动累库 +30.7 万吨，表需 139.6",
+   "trigger_price": null,
+   "invalidate_text": "收盘站上 3,140（止损由 3,190 下移）",
+   "invalidate_price": {
+    "above": 3140
+   }
+  },
+  {
+   "kind": "outright",
+   "sym": "fg",
+   "name": "玻璃",
+   "contract": "FG2701",
+   "dir": "空",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 2,
+   "trigger_text": "反弹至 890–905 做空（近 5 个交易日区间 866–909 内；上期 950–980 未触及）。厂库 10/8 +268.9 万重箱（同比 +16.5%），当日增仓 17.4 万手收 868 上市新低",
+   "trigger_price": {
+    "band": [
+     890,
+     905
+    ]
+   },
+   "invalidate_text": "收盘站上 930；或厂库连续两周去库；或反内卷出具体产量约束",
+   "invalidate_price": {
+    "above": 930
+   }
+  },
+  {
+   "kind": "outright",
+   "sym": "jm",
+   "name": "焦煤",
+   "contract": "JM2701",
+   "dir": "观察",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 3,
+   "trigger_text": "取消反弹空，改区间 1,450–1,650。期货修复贴水（节后两天期货 +90.5、国君蒙 5 仓单 +30，基差走弱 60.5；CCI 9/24→10/9 蒙古仓单持平、山西仓单 −132，期货 +30.5）与产地现货下跌（CCI 山西低硫 9/24 起 −221）对冲；转空：内矿样本原煤回到 1,060 万吨以上且甘其毛都连续一周 >900 车；转多：CCI 山西低硫止跌",
+   "trigger_price": null,
+   "invalidate_text": "收盘跌破 1,433（近 5 个交易日低点；9/29、9/30 曾收 1,448/1,449，1,450 贴着节前收盘）或站上 1,650 → 区间判断失效，重新评估",
+   "invalidate_price": null
+  },
+  {
+   "kind": "spread",
+   "sym": null,
+   "name": "多锰硅 空硅铁",
+   "contract": "SM2701/SF2701",
+   "legs": [
+    {
+     "sym": "sm",
+     "side": "多"
+    },
+    {
+     "sym": "sf",
+     "side": "空"
+    }
+   ],
+   "dir": "多",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 5,
+   "trigger_text": "小仓持有，两周期限：01 价差 −152→−156 三周未走（区间 −88 至 −172）；库存偏向走扩（锰硅仓单 −1,899、硅铁厂库 +4,470），成本偏向收窄（化工焦 −100、兰炭 +70）",
+   "trigger_price": null,
+   "invalidate_text": "10/23 前价差未站上 −100 → 平仓；SF2611 收盘站上 6,100 → 止损（沿用上期'SF 主力'止损线；10/9 SF2611 收 6,068、SF2701 收 6,004）",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "au",
+   "name": "黄金",
+   "contract": "AU2612",
+   "dir": "多",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 3,
+   "trigger_text": "重新入场（上期多头 9/28 按伦敦金 4,200 失效线离场，亏约 3.2%）：同一周美元指数与 2 年期都下行，且伦敦金收盘收复 4,230。财政压力的相对震中在美国以外时，熊陡伴随美元走强，对黄金为负（规则 2）；长期配置盘（9 月全球 ETF +67 吨、央行连续 23 个月增持）在买，短期流量（CFTC 净多两周 −16,168、SPDR 9/22 以来 −2.85 吨）在卖。价格条件不填：系统拿 AU2612 比伦敦金折算价，两者本期差约 30 美元，且另两条前提（美元与 2 年期）系统检验不了",
+   "trigger_price": null,
+   "invalidate_text": "10/28 意外加息；或法德 10 年利差 >160bp",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "lc",
+   "name": "碳酸锂",
+   "contract": "LC2701",
+   "dir": "观察",
+   "action": "等待",
+   "priority": "C",
+   "weeks": 5,
+   "trigger_text": "多头观察（不入场），触发改写：仓单拐点不再作领先信号（三周去库 1.9 万吨、仓单 −10,420，价格仍跌 8%）；多头只认价格确认——增仓上涨周＋SMM 周去库 ≥8,000 吨",
+   "trigger_price": null,
+   "invalidate_text": "转空触发：节后连续两个完整周（10/15、10/22 两期）SMM 去库都 <5,000 吨且仓单止降回升",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": "cj",
+   "name": "红枣",
+   "contract": "CJ2701",
+   "dir": "空",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 3,
+   "trigger_text": "持有：9/18 7,340 → 10/9 6,855，10/8 增仓 17,825 手创近一年新低；通货 5.65 元/公斤三周未调、36 家样本库存 9,450 吨（同比 +2.7%）、销区现货续跌；减空条件（通货上调、库存周降超 300 连续两周）未触发",
+   "trigger_price": null,
+   "invalidate_text": "收盘站上 7,130（新设价格止损：9/30 节前收盘，近 5 日区间 6,790–7,245 内）；新枣开秤价 ≥5.65 元/公斤 → 平仓",
+   "invalidate_price": {
+    "above": 7130
+   }
+  },
+  {
+   "kind": "outright",
+   "sym": null,
+   "name": "生猪（系统无此品种）",
+   "contract": "LH2703",
+   "dir": "观察",
+   "action": "等待",
+   "priority": "C",
+   "weeks": 1,
+   "trigger_text": "远月多头观察：10/12 农业农村部生猪产能常态化精准调控座谈会若给出新增能繁调减的量化目标，且月度能繁环比降幅回到 >1.5%，则 LH2703 多头观察成立",
+   "trigger_price": null,
+   "invalidate_text": "全国生猪均价（卓创口径）跌破 9.86 元/公斤 → 观察取消",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": null,
+   "name": "美债 2 年期",
+   "contract": "",
+   "dir": "多",
+   "action": "等待",
+   "priority": "B",
+   "weeks": 3,
+   "trigger_text": "非商品。10 月加息概率已降到约 15%–18%，上期入场条件 10/1 出现但条目 9/28 已被第二推翻点取消；本期重新挂单：10/14 美国 9 月核心 CPI 环比 ≤0.2% → 入场。链 B″",
+   "trigger_price": null,
+   "invalidate_text": "核心 CPI 环比 ≥0.4%，或 10/28 意外加息",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": null,
+   "name": "恒生科技",
+   "contract": "",
+   "dir": "多",
+   "action": "等待",
+   "priority": "C",
+   "weeks": 3,
+   "trigger_text": "非商品，观察。9/23 美 10Y 收 5.11 触发失效，9/24 按收盘 4,361.13 离场（较 9/18 4,405.50 −1.0%；10/9 收 4,197.84）。重新入场：美 10Y 周收盘回到 5.10% 以下且法德利差 <120bp。链 B′",
+   "trigger_price": null,
+   "invalidate_text": "美 10Y 站上 5.40%（10/5 高 5.31）",
+   "invalidate_price": null
+  },
+  {
+   "kind": "outright",
+   "sym": null,
+   "name": "十年期国债期货",
+   "contract": "T2612",
+   "dir": "多",
+   "action": "不新增",
+   "priority": "B",
+   "weeks": 3,
+   "trigger_text": "非商品。区间 108.30–109.60，上期 9/18 在 109.535 已减仓，9/22、9/29 两度收盘越过上沿后回落，余仓 10/9 收 109.46；宽信用不降息（链 C）压制上沿",
+   "trigger_price": null,
+   "invalidate_text": "跌破 108.30；或 9 月新增人民币贷款 >1.2 万亿（路透预测 9,750 亿）且社融存量增速止跌",
+   "invalidate_price": null
+  }
+ ]
+}
