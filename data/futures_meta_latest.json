@@ -1,5 +1,5 @@
 {
-  "export_date": "20261126",
+  "export_date": "20261127",
   "symbols_ok": 53,
   "symbols_skipped": [],
   "meta": {
@@ -9,11 +9,11 @@
       "mult": 10,
       "mgn": 0.1,
       "active_code": "RB0",
-      "active_month": "01",
-      "active_oi": 1051398,
-      "next_oi": 1032101,
-      "rollover_status": "⚠️ 换月预备（49.5%，仅预警）",
-      "rollover_progress": 49.5,
+      "active_month": "05",
+      "active_oi": 1109063,
+      "next_oi": 1109063,
+      "rollover_status": "🔄 已换月（次月OI≥50%，仅预警）",
+      "rollover_progress": 53.5,
       "block_new_entry": false,
       "symbol_type": "🔗主连(地形/趋势)+单合约(跨期)",
       "data_source": "continuous_contract(export-override)",
@@ -21,7 +21,7 @@
       "whitelist": false,
       "near_code": "RB2701",
       "far_code": "rb2705",
-      "rows": 4290
+      "rows": 4291
     },
     "hc": {
       "name": "热轧卷板",
@@ -30,10 +30,10 @@
       "mgn": 0.1,
       "active_code": "HC0",
       "active_month": "C0",
-      "active_oi": 1084002,
-      "next_oi": 875110,
-      "rollover_status": "⚠️ 换月预备（44.7%，仅预警）",
-      "rollover_progress": 44.7,
+      "active_oi": 980930,
+      "next_oi": 960362,
+      "rollover_status": "⚠️ 换月预备（49.5%，仅预警）",
+      "rollover_progress": 49.5,
       "block_new_entry": false,
       "symbol_type": "白名单主连[热卷(SHFE活跃月1/5/10，换月价差小，用主连)]",
       "data_source": "continuous_contract",
@@ -41,7 +41,7 @@
       "whitelist": true,
       "near_code": "HC2701",
       "far_code": "HC2705",
-      "rows": 3088
+      "rows": 3089
     },
     "i": {
       "name": "铁矿石",
@@ -50,10 +50,10 @@
       "mgn": 0.09,
       "active_code": "i0",
       "active_month": "01",
-      "active_oi": 429631,
-      "next_oi": 332651,
-      "rollover_status": "⚠️ 换月预备（43.6%，仅预警）",
-      "rollover_progress": 43.6,
+      "active_oi": 408413,
+      "next_oi": 358790,
+      "rollover_status": "⚠️ 换月预备（46.8%，仅预警）",
+      "rollover_progress": 46.8,
       "block_new_entry": false,
       "symbol_type": "🔗主连(地形/趋势)+单合约(跨期)",
       "data_source": "continuous_contract(export-override)",
@@ -61,7 +61,7 @@
       "whitelist": false,
       "near_code": "I2701",
       "far_code": "i2705",
-      "rows": 3187
+      "rows": 3188
     },
     "j": {
       "name": "焦炭",
@@ -70,10 +70,10 @@
       "mgn": 0.1,
       "active_code": "j0",
       "active_month": "01",
-      "active_oi": 52854,
-      "next_oi": 9529,
-      "rollover_status": "🟢 稳定（15.3%）",
-      "rollover_progress": 15.3,
+      "active_oi": 51609,
+      "next_oi": 10116,
+      "rollover_status": "🟢 稳定（16.4%）",
+      "rollover_progress": 16.4,
       "block_new_entry": false,
       "symbol_type": "🔗主连(地形/趋势)+单合约(跨期)",
       "data_source": "continuous_contract(export-override)",
@@ -81,7 +81,7 @@
       "whitelist": false,
       "near_code": "J2701",
       "far_code": "j2705",
-      "rows": 3791
+      "rows": 3792
     },
     "jm": {
       "name": "焦煤",
@@ -90,10 +90,10 @@
       "mgn": 0.1,
       "active_code": "jm0",
       "active_month": "01",
-      "active_oi": 450302,
-      "next_oi": 173761,
-      "rollover_status": "🟢 稳定（27.8%）",
-      "rollover_progress": 27.8,
+      "active_oi": 421657,
+      "next_oi": 177311,
+      "rollover_status": "🟢 稳定（29.6%）",
+      "rollover_progress": 29.6,
       "block_new_entry": false,
       "symbol_type": "🔗主连(地形/趋势)+单合约(跨期)",
       "data_source": "continuous_contract(export-override)",
@@ -101,7 +101,7 @@
       "whitelist": false,
       "near_code": "JM2701",
       "far_code": "jm2705",
-      "rows": 3319
+      "rows": 3320
     },
     "sf": {
       "name": "硅铁",
@@ -121,7 +121,7 @@
       "whitelist": true,
       "near_code": "SF0",
       "far_code": "sf0",
-      "rows": 2957
+      "rows": 2958
     },
     "sm": {
       "name": "锰硅",
@@ -141,7 +141,7 @@
       "whitelist": true,
       "near_code": "SM0",
       "far_code": "sm0",
-      "rows": 2940
+      "rows": 2941
     },
     "ss": {
       "name": "不锈钢",
@@ -161,7 +161,7 @@
       "whitelist": true,
       "near_code": "SS0",
       "far_code": "SS9999",
-      "rows": 1737
+      "rows": 1738
     },
     "eg": {
       "name": "乙二醇",
@@ -170,10 +170,10 @@
       "mgn": 0.08,
       "active_code": "eg0",
       "active_month": "g0",
-      "active_oi": 439146,
-      "next_oi": 163805,
-      "rollover_status": "🟢 稳定（27.2%）",
-      "rollover_progress": 27.2,
+      "active_oi": 393028,
+      "next_oi": 173964,
+      "rollover_status": "⚠️ 换月预备（30.7%，仅预警）",
+      "rollover_progress": 30.7,
       "block_new_entry": false,
       "symbol_type": "白名单主连[乙二醇(DCE活跃月1/5/9，换月价差小，用主连)]",
       "data_source": "continuous_contract",
@@ -181,7 +181,7 @@
       "whitelist": true,
       "near_code": "EG2701",
       "far_code": "EG2702",
-      "rows": 1930
+      "rows": 1931
     },
     "pp": {
       "name": "聚丙烯",
@@ -190,8 +190,8 @@
       "mgn": 0.08,
       "active_code": "pp0",
       "active_month": "01",
-      "active_oi": 475725,
-      "next_oi": 206089,
+      "active_oi": 471690,
+      "next_oi": 204185,
       "rollover_status": "⚠️ 换月预备（30.2%，仅预警）",
       "rollover_progress": 30.2,
       "block_new_entry": false,
@@ -201,7 +201,7 @@
       "whitelist": false,
       "near_code": "PP2701",
       "far_code": "pp2705",
-      "rows": 3098
+      "rows": 3099
     },
     "l": {
       "name": "聚乙烯",
@@ -210,10 +210,10 @@
       "mgn": 0.08,
       "active_code": "l0",
       "active_month": "01",
-      "active_oi": 322773,
-      "next_oi": 146792,
-      "rollover_status": "⚠️ 换月预备（31.3%，仅预警）",
-      "rollover_progress": 31.3,
+      "active_oi": 315084,
+      "next_oi": 149829,
+      "rollover_status": "⚠️ 换月预备（32.2%，仅预警）",
+      "rollover_progress": 32.2,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,双因子月份差4月)",
       "data_source": "continuous_contract(export-override)",
@@ -221,7 +221,7 @@
       "whitelist": false,
       "near_code": "L2701",
       "far_code": "l2705",
-      "rows": 4701
+      "rows": 4702
     },
     "pg": {
       "name": "液化气",
@@ -241,7 +241,7 @@
       "whitelist": true,
       "near_code": "pg0",
       "far_code": "PG0",
-      "rows": 1616
+      "rows": 1617
     },
     "ta": {
       "name": "PTA",
@@ -250,10 +250,10 @@
       "mgn": 0.08,
       "active_code": "TA0",
       "active_month": "A0",
-      "active_oi": 914985,
-      "next_oi": 386752,
-      "rollover_status": "🟢 稳定（29.7%）",
-      "rollover_progress": 29.7,
+      "active_oi": 909005,
+      "next_oi": 396195,
+      "rollover_status": "⚠️ 换月预备（30.4%，仅预警）",
+      "rollover_progress": 30.4,
       "block_new_entry": false,
       "symbol_type": "白名单主连[PTA(CZCE活跃月1/5/9，换月价差小，用主连)]",
       "data_source": "continuous_contract",
@@ -261,7 +261,7 @@
       "whitelist": true,
       "near_code": "TA2701",
       "far_code": "TA2703",
-      "rows": 4844
+      "rows": 4845
     },
     "ma": {
       "name": "甲醇",
@@ -270,10 +270,10 @@
       "mgn": 0.08,
       "active_code": "MA0",
       "active_month": "01",
-      "active_oi": 837025,
-      "next_oi": 316607,
-      "rollover_status": "🟢 稳定（27.4%）",
-      "rollover_progress": 27.4,
+      "active_oi": 785129,
+      "next_oi": 322590,
+      "rollover_status": "🟢 稳定（29.1%）",
+      "rollover_progress": 29.1,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,固定1/5/9月)",
       "data_source": "continuous_contract(export-override)",
@@ -281,7 +281,7 @@
       "whitelist": false,
       "near_code": "MA2701",
       "far_code": "MA2705",
-      "rows": 2890
+      "rows": 2891
     },
     "v": {
       "name": "PVC",
@@ -290,10 +290,10 @@
       "mgn": 0.08,
       "active_code": "v0",
       "active_month": "01",
-      "active_oi": 795547,
-      "next_oi": 319908,
-      "rollover_status": "🟢 稳定（28.7%）",
-      "rollover_progress": 28.7,
+      "active_oi": 778607,
+      "next_oi": 328354,
+      "rollover_status": "🟢 稳定（29.7%）",
+      "rollover_progress": 29.7,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,双因子月份差4月)",
       "data_source": "continuous_contract(export-override)",
@@ -301,7 +301,7 @@
       "whitelist": false,
       "near_code": "V2701",
       "far_code": "v2705",
-      "rows": 4247
+      "rows": 4248
     },
     "eb": {
       "name": "苯乙烯",
@@ -321,7 +321,7 @@
       "whitelist": true,
       "near_code": "eb0",
       "far_code": "EB0",
-      "rows": 1736
+      "rows": 1737
     },
     "fg": {
       "name": "玻璃",
@@ -330,10 +330,10 @@
       "mgn": 0.08,
       "active_code": "FG0",
       "active_month": "01",
-      "active_oi": 954208,
-      "next_oi": 261412,
-      "rollover_status": "🟢 稳定（21.5%）",
-      "rollover_progress": 21.5,
+      "active_oi": 906186,
+      "next_oi": 274570,
+      "rollover_status": "🟢 稳定（23.3%）",
+      "rollover_progress": 23.3,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,固定1/5/9月)",
       "data_source": "continuous_contract(export-override)",
@@ -341,7 +341,7 @@
       "whitelist": false,
       "near_code": "FG2701",
       "far_code": "FG2705",
-      "rows": 3386
+      "rows": 3387
     },
     "sa": {
       "name": "纯碱",
@@ -350,10 +350,10 @@
       "mgn": 0.08,
       "active_code": "SA0",
       "active_month": "01",
-      "active_oi": 1013960,
-      "next_oi": 343049,
-      "rollover_status": "🟢 稳定（25.3%）",
-      "rollover_progress": 25.3,
+      "active_oi": 993710,
+      "next_oi": 355616,
+      "rollover_status": "🟢 稳定（26.4%）",
+      "rollover_progress": 26.4,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,固定1/5/9月)",
       "data_source": "continuous_contract(export-override)",
@@ -361,7 +361,7 @@
       "whitelist": false,
       "near_code": "SA2701",
       "far_code": "SA2705",
-      "rows": 1690
+      "rows": 1691
     },
     "a": {
       "name": "豆一",
@@ -381,7 +381,7 @@
       "whitelist": true,
       "near_code": "a0",
       "far_code": "A0",
-      "rows": 5326
+      "rows": 5327
     },
     "m": {
       "name": "豆粕",
@@ -390,10 +390,10 @@
       "mgn": 0.08,
       "active_code": "m0",
       "active_month": "01",
-      "active_oi": 1699193,
-      "next_oi": 1171484,
-      "rollover_status": "⚠️ 换月预备（40.8%，仅预警）",
-      "rollover_progress": 40.8,
+      "active_oi": 1677772,
+      "next_oi": 1192387,
+      "rollover_status": "⚠️ 换月预备（41.5%，仅预警）",
+      "rollover_progress": 41.5,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,双因子月份差4月)",
       "data_source": "continuous_contract(export-override)",
@@ -401,7 +401,7 @@
       "whitelist": false,
       "near_code": "M2701",
       "far_code": "m2705",
-      "rows": 5329
+      "rows": 5330
     },
     "y": {
       "name": "豆油",
@@ -410,10 +410,10 @@
       "mgn": 0.08,
       "active_code": "y0",
       "active_month": "05",
-      "active_oi": 378543,
-      "next_oi": 378543,
+      "active_oi": 395764,
+      "next_oi": 395764,
       "rollover_status": "🔄 已换月（次月OI≥50%，仅预警）",
-      "rollover_progress": 50.8,
+      "rollover_progress": 53.8,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,双因子月份差4月)",
       "data_source": "continuous_contract(export-override)",
@@ -421,7 +421,7 @@
       "whitelist": false,
       "near_code": "Y2701",
       "far_code": "y2705",
-      "rows": 5072
+      "rows": 5073
     },
     "c": {
       "name": "玉米",
@@ -441,7 +441,7 @@
       "whitelist": true,
       "near_code": "c0",
       "far_code": "C0",
-      "rows": 5323
+      "rows": 5324
     },
     "cs": {
       "name": "玉米淀粉",
@@ -461,7 +461,7 @@
       "whitelist": true,
       "near_code": "cs0",
       "far_code": "CS0",
-      "rows": 2897
+      "rows": 2898
     },
     "p": {
       "name": "棕榈油",
@@ -469,11 +469,11 @@
       "mult": 10,
       "mgn": 0.08,
       "active_code": "p0",
-      "active_month": "01",
-      "active_oi": 385722,
-      "next_oi": 381886,
-      "rollover_status": "⚠️ 换月预备（49.8%，仅预警）",
-      "rollover_progress": 49.8,
+      "active_month": "05",
+      "active_oi": 400293,
+      "next_oi": 400293,
+      "rollover_status": "🔄 已换月（次月OI≥50%，仅预警）",
+      "rollover_progress": 52.9,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,双因子月份差4月)",
       "data_source": "continuous_contract(export-override)",
@@ -481,7 +481,7 @@
       "whitelist": false,
       "near_code": "P2701",
       "far_code": "p2705",
-      "rows": 4640
+      "rows": 4641
     },
     "sr": {
       "name": "白糖",
@@ -490,10 +490,10 @@
       "mgn": 0.07,
       "active_code": "SR0",
       "active_month": "01",
-      "active_oi": 535894,
-      "next_oi": 288549,
-      "rollover_status": "⚠️ 换月预备（35.0%，仅预警）",
-      "rollover_progress": 35.0,
+      "active_oi": 492664,
+      "next_oi": 284683,
+      "rollover_status": "⚠️ 换月预备（36.6%，仅预警）",
+      "rollover_progress": 36.6,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,固定1/5/9月)",
       "data_source": "continuous_contract(export-override)",
@@ -501,7 +501,7 @@
       "whitelist": false,
       "near_code": "SR2701",
       "far_code": "SR2705",
-      "rows": 5070
+      "rows": 5071
     },
     "cf": {
       "name": "棉花",
@@ -510,8 +510,8 @@
       "mgn": 0.07,
       "active_code": "CF0",
       "active_month": "01",
-      "active_oi": 568662,
-      "next_oi": 344917,
+      "active_oi": 581731,
+      "next_oi": 353814,
       "rollover_status": "⚠️ 换月预备（37.8%，仅预警）",
       "rollover_progress": 37.8,
       "block_new_entry": false,
@@ -521,7 +521,7 @@
       "whitelist": false,
       "near_code": "CF2701",
       "far_code": "cf2705",
-      "rows": 5327
+      "rows": 5328
     },
     "cj": {
       "name": "红枣",
@@ -541,7 +541,7 @@
       "whitelist": true,
       "near_code": "CJ0",
       "far_code": "cj0",
-      "rows": 1836
+      "rows": 1837
     },
     "ap": {
       "name": "苹果",
@@ -550,10 +550,10 @@
       "mgn": 0.1,
       "active_code": "AP2701",
       "active_month": "01",
-      "active_oi": 128208,
-      "next_oi": 72997,
-      "rollover_status": "⚠️ 换月预备（36.3%，仅预警）",
-      "rollover_progress": 36.3,
+      "active_oi": 102908,
+      "next_oi": 82115,
+      "rollover_status": "⚠️ 换月预备（44.4%，仅预警）",
+      "rollover_progress": 44.4,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,双因子月份差4月)",
       "data_source": "single_contract",
@@ -561,7 +561,7 @@
       "whitelist": false,
       "near_code": "AP2701",
       "far_code": "ap2705",
-      "rows": 207
+      "rows": 208
     },
     "rm": {
       "name": "菜粕",
@@ -570,10 +570,10 @@
       "mgn": 0.08,
       "active_code": "RM0",
       "active_month": "M0",
-      "active_oi": 436300,
-      "next_oi": 382564,
-      "rollover_status": "⚠️ 换月预备（46.7%，仅预警）",
-      "rollover_progress": 46.7,
+      "active_oi": 409384,
+      "next_oi": 405569,
+      "rollover_status": "⚠️ 换月预备（49.8%，仅预警）",
+      "rollover_progress": 49.8,
       "block_new_entry": false,
       "symbol_type": "逐月品种(连续合约,双因子月份差2月)",
       "data_source": "continuous_contract",
@@ -581,7 +581,7 @@
       "whitelist": false,
       "near_code": "RM2701",
       "far_code": "RM2703",
-      "rows": 3372
+      "rows": 3373
     },
     "oi": {
       "name": "菜油",
@@ -590,10 +590,10 @@
       "mgn": 0.08,
       "active_code": "OI0",
       "active_month": "01",
-      "active_oi": 241415,
-      "next_oi": 95403,
-      "rollover_status": "🟢 稳定（28.3%）",
-      "rollover_progress": 28.3,
+      "active_oi": 245890,
+      "next_oi": 100721,
+      "rollover_status": "🟢 稳定（29.1%）",
+      "rollover_progress": 29.1,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,固定1/5/9月)",
       "data_source": "continuous_contract(export-override)",
@@ -601,7 +601,7 @@
       "whitelist": false,
       "near_code": "OI2701",
       "far_code": "OI2705",
-      "rows": 4730
+      "rows": 4731
     },
     "cu": {
       "name": "铜",
@@ -621,7 +621,7 @@
       "whitelist": true,
       "near_code": "CU0",
       "far_code": "CU9999",
-      "rows": 5326
+      "rows": 5327
     },
     "al": {
       "name": "铝",
@@ -641,7 +641,7 @@
       "whitelist": true,
       "near_code": "AL0",
       "far_code": "AL9999",
-      "rows": 5326
+      "rows": 5327
     },
     "zn": {
       "name": "锌",
@@ -661,7 +661,7 @@
       "whitelist": true,
       "near_code": "ZN0",
       "far_code": "ZN9999",
-      "rows": 4789
+      "rows": 4790
     },
     "ni": {
       "name": "镍",
@@ -681,7 +681,7 @@
       "whitelist": true,
       "near_code": "NI0",
       "far_code": "NI9999",
-      "rows": 2838
+      "rows": 2839
     },
     "pb": {
       "name": "铅",
@@ -701,7 +701,7 @@
       "whitelist": true,
       "near_code": "PB0",
       "far_code": "PB9999",
-      "rows": 3809
+      "rows": 3810
     },
     "sn": {
       "name": "锡",
@@ -721,7 +721,7 @@
       "whitelist": true,
       "near_code": "SN0",
       "far_code": "SN9999",
-      "rows": 2838
+      "rows": 2839
     },
     "au": {
       "name": "黄金",
@@ -741,7 +741,7 @@
       "whitelist": true,
       "near_code": "AU0",
       "far_code": "AU9999",
-      "rows": 4599
+      "rows": 4600
     },
     "ag": {
       "name": "白银",
@@ -761,7 +761,7 @@
       "whitelist": true,
       "near_code": "AG0",
       "far_code": "AG9999",
-      "rows": 3540
+      "rows": 3541
     },
     "sc": {
       "name": "原油",
@@ -781,7 +781,7 @@
       "whitelist": true,
       "near_code": "sc0",
       "far_code": "SC0",
-      "rows": 2104
+      "rows": 2105
     },
     "sh": {
       "name": "烧碱",
@@ -801,7 +801,7 @@
       "whitelist": true,
       "near_code": "SH0",
       "far_code": "sh0",
-      "rows": 772
+      "rows": 773
     },
     "lc": {
       "name": "碳酸锂",
@@ -821,7 +821,7 @@
       "whitelist": true,
       "near_code": "lc0",
       "far_code": "LC0",
-      "rows": 812
+      "rows": 813
     },
     "tl": {
       "name": "30年国债",
@@ -841,7 +841,7 @@
       "whitelist": true,
       "near_code": "TL0",
       "far_code": "tl0",
-      "rows": 872
+      "rows": 873
     },
     "if": {
       "name": "沪深300股指",
@@ -861,7 +861,7 @@
       "whitelist": true,
       "near_code": "IF0",
       "far_code": "IF9999",
-      "rows": 2392
+      "rows": 2393
     },
     "ic": {
       "name": "中证500股指",
@@ -881,7 +881,7 @@
       "whitelist": true,
       "near_code": "IC0",
       "far_code": "IC9999",
-      "rows": 2392
+      "rows": 2393
     },
     "sp": {
       "name": "纸浆",
@@ -890,10 +890,10 @@
       "mgn": 0.09,
       "active_code": "SP0",
       "active_month": "01",
-      "active_oi": 218859,
-      "next_oi": 57895,
-      "rollover_status": "🟢 稳定（20.9%）",
-      "rollover_progress": 20.9,
+      "active_oi": 193617,
+      "next_oi": 59908,
+      "rollover_status": "🟢 稳定（23.6%）",
+      "rollover_progress": 23.6,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,固定1/5/9月)",
       "data_source": "continuous_contract(export-override)",
@@ -901,7 +901,7 @@
       "whitelist": false,
       "near_code": "SP2701",
       "far_code": "SP2705",
-      "rows": 1939
+      "rows": 1940
     },
     "ru": {
       "name": "天然橡胶",
@@ -910,10 +910,10 @@
       "mgn": 0.1,
       "active_code": "RU0",
       "active_month": "05",
-      "active_oi": 95831,
-      "next_oi": 95831,
+      "active_oi": 102048,
+      "next_oi": 102048,
       "rollover_status": "🔄 已换月（次月OI≥50%，仅预警）",
-      "rollover_progress": 53.6,
+      "rollover_progress": 57.8,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,双因子月份差4月)",
       "data_source": "continuous_contract(export-override)",
@@ -921,7 +921,7 @@
       "whitelist": false,
       "near_code": "RU2701",
       "far_code": "ru2705",
-      "rows": 5324
+      "rows": 5325
     },
     "br": {
       "name": "合成橡胶",
@@ -930,10 +930,10 @@
       "mgn": 0.1,
       "active_code": "BR0",
       "active_month": "R0",
-      "active_oi": 62449,
-      "next_oi": 50874,
-      "rollover_status": "⚠️ 换月预备（44.9%，仅预警）",
-      "rollover_progress": 44.9,
+      "active_oi": 56889,
+      "next_oi": 55674,
+      "rollover_status": "⚠️ 换月预备（49.5%，仅预警）",
+      "rollover_progress": 49.5,
       "block_new_entry": false,
       "symbol_type": "白名单主连[合成橡胶(SHFE逐月换月，用主连)]",
       "data_source": "continuous_contract",
@@ -941,7 +941,7 @@
       "whitelist": true,
       "near_code": "BR2701",
       "far_code": "BR2702",
-      "rows": 807
+      "rows": 808
     },
     "ps": {
       "name": "多晶硅",
@@ -961,7 +961,7 @@
       "whitelist": true,
       "near_code": "ps0",
       "far_code": "PS0",
-      "rows": 464
+      "rows": 465
     },
     "bu": {
       "name": "沥青",
@@ -981,7 +981,7 @@
       "whitelist": true,
       "near_code": "BU0",
       "far_code": "bu0",
-      "rows": 3192
+      "rows": 3193
     },
     "fu": {
       "name": "燃料油",
@@ -1001,7 +1001,7 @@
       "whitelist": true,
       "near_code": "FU0",
       "far_code": "fu0",
-      "rows": 5301
+      "rows": 5302
     },
     "ao": {
       "name": "氧化铝",
@@ -1021,7 +1021,7 @@
       "whitelist": true,
       "near_code": "AO0",
       "far_code": "ao0",
-      "rows": 834
+      "rows": 835
     },
     "lh": {
       "name": "生猪",
@@ -1030,10 +1030,10 @@
       "mgn": 0.12,
       "active_code": "lh0",
       "active_month": "03",
-      "active_oi": 211088,
-      "next_oi": 71436,
-      "rollover_status": "🟢 稳定（25.3%）",
-      "rollover_progress": 25.3,
+      "active_oi": 215527,
+      "next_oi": 72525,
+      "rollover_status": "🟢 稳定（25.2%）",
+      "rollover_progress": 25.2,
       "block_new_entry": false,
       "symbol_type": "传统周期品种(单合约,双因子月份差2月)",
       "data_source": "continuous_contract(export-override)",
@@ -1041,7 +1041,7 @@
       "whitelist": false,
       "near_code": "LH2703",
       "far_code": "lh2705",
-      "rows": 1425
+      "rows": 1426
     },
     "jd": {
       "name": "鸡蛋",
@@ -1061,7 +1061,7 @@
       "whitelist": true,
       "near_code": "jd0",
       "far_code": "JD0",
-      "rows": 3173
+      "rows": 3174
     }
   }
 }
